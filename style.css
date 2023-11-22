@@ -87,7 +87,7 @@ body {
     /* line-height: normal; */
     text-transform: capitalize;
     position: absolute;
-    margin-left: 5%;
+    margin-left: 10%;
     transform: translateY(15%);
   }
 
@@ -98,7 +98,7 @@ body {
     /* line-height: normal; */
     text-transform: lowercase;
     transform: translateY(430%);
-    margin-left: 5%;
+    margin-left: 10%;
   }
 
   .hero-section .left p span{
@@ -116,5 +116,20 @@ body {
     font-size: 26px;
     text-transform: capitalize;
     transform: translateY(630%);
-    margin-left: 5%;
+    margin-left: 10%;
+  }
+
+  .hero-section .left .images{
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    margin-left: 10%;
+    transform: translateY(415%);
+  }
+
+  .hero-section .right img{
+    transform: translateX(130%);
+    height: 490px;
+    margin-top: -20%;
+    
   }
