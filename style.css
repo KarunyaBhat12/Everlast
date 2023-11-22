@@ -88,6 +88,7 @@ body {
     text-transform: capitalize;
     position: absolute;
     margin-left: 5%;
+    transform: translateY(15%);
   }
 
   .hero-section .left p{
@@ -96,7 +97,7 @@ body {
     font-size: 10px;
     /* line-height: normal; */
     text-transform: lowercase;
-    transform: translateY(380%);
+    transform: translateY(430%);
     margin-left: 5%;
   }
 
@@ -114,6 +115,6 @@ body {
     font-family: Inika;
     font-size: 26px;
     text-transform: capitalize;
-    transform: translateY(560%);
+    transform: translateY(630%);
     margin-left: 5%;
   }
