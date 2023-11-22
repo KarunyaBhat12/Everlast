@@ -1,0 +1,119 @@
+:root {
+    --grey-color: #A3A3A3;
+    --white-color: #fff;
+    --purple-color: #AC63BB;
+    --black-color: #0e0f0f;
+    --light-blue-color: #E1F0F9;
+}
+
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.wrapper {
+  max-width: 1134px;
+  margin: 0 auto;
+}
+
+.btn {
+    padding: 2px 10px;
+    border-radius: 24px;
+    color: #fff;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 10px;
+    text-decoration: none;
+    position: relative;
+    transform: translateY(-10%);
+  }
+  
+  .btn.dark {
+    background: var(--black-color);
+  }
+
+  header {
+    background: #E1F0F9;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  nav {
+    background: var(--purple-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1134px;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav .logo {
+    font-family: "Joti one", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    color: #A3A3A3;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-items: auto;
+    align-items: center;
+    gap: 50px;
+    transform: translateX(-40%);
+    list-style: none;
+    margin: 0;
+  }
+  
+  nav ul li a {
+    font-family: "inika", sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .hero-section .left h1{
+    color: #9E35A8;
+    font-family: Inika;
+    font-size: 40px;
+    /* line-height: normal; */
+    text-transform: capitalize;
+    position: absolute;
+    margin-left: 5%;
+  }
+
+  .hero-section .left p{
+    color: #0E0F0F;
+    font-family: Inika;
+    font-size: 10px;
+    /* line-height: normal; */
+    text-transform: lowercase;
+    transform: translateY(380%);
+    margin-left: 5%;
+  }
+
+  .hero-section .left p span{
+    color: #AC63BB;
+    font-family: Inika;
+    font-size: 10px;
+    /* line-height: normal; */
+    text-transform: lowercase;
+    transform: translateY(380%);
+  }
+
+  .hero-section .left h4{
+    color: #9F36A8;
+    font-family: Inika;
+    font-size: 26px;
+    text-transform: capitalize;
+    transform: translateY(560%);
+    margin-left: 5%;
+  }
