@@ -6,6 +6,7 @@
     --light-blue-color: #E1F0F9;
     --dark-purple: #2A002B;
     --light-purple: #D805DC;
+    --dark-blue: #7CA8FE;
 }
 
 
@@ -63,7 +64,7 @@ body {
     font-family: "Joti one", sans-serif;
     font-weight: 900;
     font-size: 20px;
-    color: #A3A3A3;
+    color: #dbd7d7;
     margin-left: 2%;
   }
   
@@ -331,7 +332,7 @@ body {
   }
 
   .last-section  a {
-    background-color: var(--light-blue-color);
+    background-color: var(--dark-blue);
     padding: 8px 20px;
     text-decoration: none;
     border-radius: 15px;
