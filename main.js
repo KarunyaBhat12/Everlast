@@ -1,5 +1,13 @@
 var tl=gsap.timeline()
 
+tl.from("nav .logo",{
+    // y:-100,
+    duration:1,
+    delay:0.3,
+    opacity:0,
+    scale:0
+})
+
 
 tl.from("nav ul li a",{
     y:-100,
@@ -49,7 +57,19 @@ tl.from(".user-section img",{
     opacity:0,
     duration:2,
     scrollTrigger:{
-        trigger:".userer-section img",
+        trigger:".user-section img",
+        scroller:"body",
+        scrub:1
+    }
+})
+
+tl.from(".last-section a",{
+    // x:-100,
+    opacity:0,
+    duration:1,
+    scale:0,
+    scrollTrigger:{
+        trigger:".last-section a",
         scroller:"body",
         scrub:1
     }
